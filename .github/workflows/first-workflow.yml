@@ -1,4 +1,6 @@
-name: CI
+
+name: First GitHub Actions Workflow
+
 on:
   workflow_dispatch:
 
@@ -7,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Run a one-line script
-        run: echo Welcome
+      - name: Print Welcome Message
+        run: echo "Welcome to GitHub Actions!"
